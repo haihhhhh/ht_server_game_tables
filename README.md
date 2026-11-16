@@ -8,3 +8,5 @@
 不要把 Luban 的 outputCodeDir 指向手写代码目录；工具可能清理该目录。当前固定输出到 common/gamedata/generated，数据到 tables/exported。正式发布时将完整数据目录作为一个版本发布，服务内调用 Module.Reload 整套切换。
 
 官方工具与说明：https://github.com/focus-creative-games/luban/releases/tag/v5.1.0 、https://www.datable.cn/docs/guide/install 。工具不要求部署到生产游戏进程。
+
+本项目采用 [MIT 许可证](LICENSE)。
