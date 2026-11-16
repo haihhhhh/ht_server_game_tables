@@ -1,0 +1,18 @@
+<module name="">
+  <bean name="TextEntry">
+    <var name="id" type="string"/>
+    <var name="text" type="string"/>
+  </bean>
+  <table name="TbText" value="TextEntry" input="texts.xlsx" index="id"/>
+  <bean name="ItemEntry">
+    <var name="id" type="int"/>
+    <var name="experience" type="long"/>
+    <var name="min_level" type="int"/>
+  </bean>
+  <table name="TbItem" value="ItemEntry" input="items.xlsx" index="id"/>
+  <bean name="LevelEntry">
+    <var name="level" type="int"/>
+    <var name="experience" type="long"/>
+  </bean>
+  <table name="TbLevel" value="LevelEntry" input="levels.xlsx" index="level"/>
+</module>
